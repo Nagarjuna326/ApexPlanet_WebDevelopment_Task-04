@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+}
+
+.container {
+  width: min(900px, 92%);
+  margin: 40px auto;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+}
